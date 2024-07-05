@@ -1,0 +1,171 @@
+* {
+  margin: 0 auto;
+}
+
+.prompt-bold {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Prompt', sans-serif;
+}
+
+.hero-area {
+  background-color: rgb(245, 224, 0);
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+}
+
+.header-section {
+  width: 940px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 10px;
+  /* position: fixed; */
+}
+
+.header-section a,
+.btn-contact {
+  color: black;
+  padding: 5px 25px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: 0.3s;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.header-section a:hover,
+.btn-contact:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.info-section {
+  width: 940px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.text-info {
+  margin-right: 20px;
+  max-width: 350px;
+}
+
+.text-info h1 {
+  margin-bottom: 30px;
+}
+
+.btn-palavra {
+  margin-top: 20px;
+}
+
+.author-art {
+  border-radius: 2px;
+  width: 400px;
+}
+
+.working-section {
+  display: flex;
+  height: 400px;
+}
+
+.networking-section {
+  background-color: black;
+  display: flex;
+  height: 300px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  height: 50px;
+  color: white;
+  margin: 0 auto;
+}
+
+/* -------------------------------------- */
+
+.working-section {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 30px;
+  align-items: center;
+}
+
+.item img {
+  width: 145px;
+  border-radius: 10px;
+}
+
+/* -------------------------------------- */
+.thought-section {
+  background-color: rgb(245, 224, 0);
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+}
+
+.thought-section p {
+  max-width: 900px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+.thought-section p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* -------------------------------------- */
+.networking-section {
+  background-color: black;
+  display: flex;
+  height: 300px;
+}
+
+.network-container {
+  border-radius: 10px;
+  border: 1px solid rgb(245, 224, 0);
+  width: 700px;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.network-container p {
+  color: rgb(245, 224, 0);
+  max-width: 400px;
+}
+
+.btn-contact {
+  color: rgb(245, 224, 0);
+  border: 1px solid rgb(245, 224, 0);
+}
+/* -------------------------------------- */
